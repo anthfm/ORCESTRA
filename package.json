@@ -1,0 +1,48 @@
+{
+  "name": "myLocalProj",
+  "version": "1.0.0",
+  "description": "",
+  "scripts": {
+    "start": "node app.js",
+    "test": "mocha"
+  },
+  "nodemonConfig": {
+    "ignore": [
+      "client/*"
+    ]
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@grpc/proto-loader": "^0.5.3",
+    "@sendgrid/mail": "^7.0.0",
+    "bcryptjs": "^2.4.3",
+    "body-parser": "^1.18.3",
+    "cookie-parser": "^1.4.4",
+    "csvtojson": "^2.0.10",
+    "doasync": "^2.0.1",
+    "dotenv": "^8.2.0",
+    "ejs": "^2.6.1",
+    "express": "^4.16.4",
+    "express-fileupload": "^1.1.6",
+    "file-api": "^0.10.4",
+    "fs": "0.0.1-security",
+    "grpc": "^1.24.2",
+    "jsonwebtoken": "^8.5.1",
+    "line-by-line": "^0.1.6",
+    "line-reader": "^0.4.0",
+    "mongodb": "^3.3.3",
+    "node-fetch": "^2.3.0",
+    "path": "^0.12.7",
+    "readline": "^1.3.0",
+    "req-flash": "0.0.3",
+    "request": "^2.88.0",
+    "shelljs": "^0.8.2",
+    "simple-git": "^1.129.0",
+    "uid-generator": "^2.0.0"
+  },
+  "devDependencies": {
+    "chai": "^4.2.0",
+    "mocha": "^7.1.1"
+  }
+}

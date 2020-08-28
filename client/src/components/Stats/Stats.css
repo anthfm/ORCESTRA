@@ -1,0 +1,95 @@
+.statContainer{
+    display: flex;
+    flex-direction: column;
+}
+
+.container{
+    color: #3D405A;
+    background-color: rgba(255, 255, 255, 0.8);
+    border-radius: 10px;
+    padding-left: 30px;
+    padding-right: 30px;
+    padding-bottom: 30px;
+    margin-bottom: 20px;
+}
+
+.rankingTable {
+    max-height: 550px;
+    width: 100%;
+}
+
+.downloadHistogram{
+    width: 100%;
+
+}
+
+.rankingTableFooter{
+    margin-top: 20px;
+}
+
+.componentloaderContainer {
+    width: 100%;
+}
+
+.stats-dataset-chart {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+}
+
+.stats-dataset-plot {
+    width: 80%;
+    min-height: 450px;
+    max-height: 900px;
+}
+
+.stats-dataset-chart-control {
+    width: 20%;
+    margin-left: 20px;
+}
+
+.stats-dataset-metric-control{
+    display: flex;
+    margin-bottom: 10px;
+    justify-content: space-between;
+    width: 80%;
+}
+
+.stats-chart-control-checkbox {
+    font-size: 12px;
+    margin-bottom: 10px;
+    display: flex;
+    align-items: center;
+}
+
+.stats-chart-control-checkbox > div {
+    margin-left: 5px;
+}
+
+.dataset-checkbox {
+    margin-right: 10px;
+    margin-left: 10px;
+}
+
+.stats-chart-control-checkbox label {
+    margin-left: 5px;
+}
+
+.upsetPlot{
+    overflow-x: scroll;
+}
+
+@media only screen and (max-width: 1200px) {
+    .statContainer{
+        flex-direction: column;
+    }
+
+    .rankingTable {
+        width: 100%;
+        margin-bottom: 30px; 
+    }
+
+    .downloadHistogram{
+        width: 100%;
+    }
+}
